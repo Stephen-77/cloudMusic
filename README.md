@@ -1,7 +1,7 @@
 # vue-music
-项目概述：此项目为一个微型后台管理系统，具备基础的后台管理功能，如权限管理、角色管理等。后台管理系统是一个非常通用的系统，任何复杂的后台管理系统都可以基于此系统来做进一步的开发
+项目概述: 该项目是基于vue2仿造网易云音乐PC端，是我自己个人独自开发。实现内容：歌单模块，我的喜欢，歌曲播放控制台，歌词，搜索模块,个人中心，歌手模块，收藏模块，排行榜...等
 
-技术选型: Vue3+Pinia+Ts+Axios+Mitt+elementPlus+Echarts+Vite+NodeJs+Express
+技术选型: Vue2+Vuex+Axios+elementUI+Cropper
 ## Project setup
 ```
 npm install
