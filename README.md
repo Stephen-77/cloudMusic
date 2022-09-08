@@ -1,5 +1,5 @@
 # vue-music
-
+#作者QC
 ## Project setup
 ```
 npm install
