@@ -4,7 +4,7 @@ import "nprogress/nprogress.css";
 import Vue from "vue";
 import { Message } from "element-ui";
 const requests = axios.create({
-  baseURL: "",
+  baseURL: "http://47.104.17.25/api",
   timeout: 10000,
 });
 requests.interceptors.request.use((config) => {
