@@ -4,8 +4,8 @@
 技术选型: Vue2+Vuex+Axios+elementUI+Cropper
 
 ## 项目线上地址
-### 目前移动端还未做适配,pc端完好
-网页预览地址：http://47.104.17.25/
+- 目前移动端还未做适配,pc端完好
+- 网页预览地址：http://47.104.17.25/
 
 ## 目前完成功能
 
@@ -29,17 +29,18 @@ https://github.com/Binaryify/NeteaseCloudMusicApi 开发时对应版本：4.0.23
 #### 目标计划
 加上评论、MV功能。
 并且使用vue3+Ts重构项目
-## Project setup
+## 项目拉取
+### 下载依赖
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 启动项目
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 打包项目
 ```
 npm run build
 ```
