@@ -1,5 +1,5 @@
 # vue-music
-项目概述: 该项目是基于vue2的仿网易云音乐PC端，是我自己个人独自开发。
+项目概述: 该项目是基于vue2的,OK云音乐PC端，是我自己个人独自开发。
 
 技术选型: Vue2+Vuex+Axios+elementUI+Cropper
 
