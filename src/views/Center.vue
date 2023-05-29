@@ -70,7 +70,8 @@ export default {
   // background-color: antiquewhite;
 }
 /deep/.el-container {
-  height: 468.008px !important;
+  // height: 468.008px !important;
+  height: calc(100vh - 140px);
 }
 .el-aside {
   background-color: #d3dce6;

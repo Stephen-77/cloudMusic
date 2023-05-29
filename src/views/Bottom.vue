@@ -460,7 +460,7 @@ export default {
     align-items: center;
     .player-left {
       margin: 0 10px;
-      width: 300px;
+      width: 25%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -513,7 +513,7 @@ export default {
     }
     .player-center {
       margin: 0 10px;
-      width: 600px;
+      width: 45%;
 
       /* 中间的按钮区 */
       .player-bar {
@@ -624,7 +624,7 @@ export default {
       justify-content: space-around;
       align-items: center;
       // width:225px;
-
+      width: 30%;
       i {
         font-size: 30px;
       }
@@ -642,7 +642,7 @@ export default {
       }
       .volume-slider{
         margin: 0;
-        width: 100px;
+        width: 38%;
           /deep/.el-slider__bar {
           background-color: rgb(121, 118, 118);
         }
@@ -656,7 +656,9 @@ export default {
       }
       .playlist{
         // width: 95px;
-        margin:0 0 0 50px;
+        width: 20%;
+        text-align: center;
+        margin:0 0 0 5%;
         img{
           width: 30px;
           height: 25px;

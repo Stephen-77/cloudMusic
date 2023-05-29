@@ -15,7 +15,7 @@
         >{{ item.label }}</el-menu-item
       >
     </el-menu>
-    <router-view></router-view>
+      <router-view></router-view>
   </div>
 </template>
 
@@ -102,7 +102,7 @@ export default {
 <style lang="less" scoped>
 .index {
   // transform:rotate(360deg);
-  padding-top: 60px;
+  padding-top: 60px !important;
 }
 .el-menu {
   position: fixed;

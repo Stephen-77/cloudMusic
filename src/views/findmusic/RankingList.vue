@@ -234,8 +234,10 @@ export default {
     display: flex;
     position: relative;
     margin-top: 10px;
+    width: 100%;
     .left {
       margin: 0;
+      // width: 22%;
       &:hover {
         .icon {
           opacity: 0.8 !important;
@@ -269,7 +271,7 @@ export default {
     }
     ul {
       margin: 10px 0 0 0;
-      width: 700px;
+      width: 70%;
       display: flex;
       flex-direction: column;
       li {

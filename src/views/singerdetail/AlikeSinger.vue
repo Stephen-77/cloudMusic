@@ -69,17 +69,19 @@ export default {
         width: 16.66%;
         margin: 0;
         padding: 14px 0 0 0;
+        text-align: center;
         a {
           display: flex;
           flex-direction: column;
           padding: 0 15px 0 0;
           img {
-            width: 100%;
+            width: 150px;
             height: 150px;
             border-radius: 5px;
           }
           p {
             font-size: 14px;
+            color: #6c6e71;
             margin: 5px 0 0 0;
           }
         }

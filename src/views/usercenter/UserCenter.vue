@@ -80,8 +80,8 @@ export default {
     } 
   },
   mounted() {
-    const userinfo=JSON.parse(localStorage.getItem('userinfo'))
-    this.$store.dispatch('userinfo/getUserDetail',userinfo.userId)
+    const Userinfo=JSON.parse(localStorage.getItem('userinfo'))
+    this.$store.dispatch('userinfo/getUserDetail',Userinfo.userId)
     // this.$nextTick(()=>{
     //   this.avatarUrl=this.userInfo.profile.avatarUrl
     // })

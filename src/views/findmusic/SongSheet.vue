@@ -462,6 +462,7 @@ export default {
       display: flex;
       flex-direction: column;
       padding-bottom: 20px;
+      margin:0 ;
       // justify-content: center;
       // align-items: center;
       a {

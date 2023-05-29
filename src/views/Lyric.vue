@@ -121,7 +121,8 @@ h2 {
 }
 .lyric {
   width: 600px;
-  height: 460px;
+  height: calc(100vh - 140px);
+  // height: 460px;
   margin: 0 auto;
   display: flex;
   position: relative;
@@ -132,7 +133,8 @@ h2 {
     // position: absolute;
     // flex: 1;
     width: 500px;
-    height: 420px;
+    height: calc(100vh - 171px);
+    // height: 420px;
     overflow: auto;
     display: flex;
     flex-direction: column;

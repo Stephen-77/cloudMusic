@@ -64,7 +64,7 @@ export default {
   methods: {
     async getBanners() {
       // this.fullscreenLoading=true
-      const res = await this.$http.get("/banner?type=0");
+      const res = await this.$http.get("/api/banner?type=0");
       if (res.data.code == 200) {
         this.bannersList = res.data.banners;
       }
@@ -73,7 +73,7 @@ export default {
       // console.log(res);
     },
     async getRecommendHotSongs() {
-      const res = await this.$http.get("/personalized");
+      const res = await this.$http.get("/api/personalized");
       // console.log(res);
       if (res.data.code == 200) {
         this.recommendedhotsongs = res.data.result;
@@ -130,6 +130,7 @@ export default {
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
+    margin: 0;
     // justify-content: center;
     // align-items: center;
     a {

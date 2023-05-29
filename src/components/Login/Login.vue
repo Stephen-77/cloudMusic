@@ -54,8 +54,10 @@ export default {
 
 <style lang="less" scoped>
 .login_center {
-  height: 468px;
+  height: calc(100vh - 140px);
+  // height: 468px;
   background: url('../../assets/images/d35d513c848ae5bf906bcbc585cdd819.jpeg');
+  background-size: cover;
   position: relative;
   .center {
     position: absolute;

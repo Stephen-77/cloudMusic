@@ -94,9 +94,11 @@ export default {
   }
   .container {
     margin: 0 0 0 30px;
+    width: 77%;
     ul {
       margin: 10px 0 0 0;
-      width: 800px;
+      width: 100%;
+      // width:700px;
       display: flex;
       flex-direction: column;
       .bofang {
@@ -150,7 +152,7 @@ export default {
           font-size: 13px;
           width: 30%;
           text-align: right;
-          padding-right: 5px;
+          padding-right: 5%;
           color: #909399;
         }
         &:nth-child(2n) {

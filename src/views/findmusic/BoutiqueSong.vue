@@ -251,6 +251,7 @@ export default {
     flex-wrap: wrap;
     list-style: none;
     li {
+      // flex: 1;
     width: 339px;
       display: flex;
       margin: 0;

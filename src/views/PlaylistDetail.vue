@@ -60,25 +60,29 @@
       <el-table-column
         prop="name"
         label="歌名"
-        width="300"
+        min-width="31%"
         show-overflow-tooltip
       >
+      <!-- 300 -->
       </el-table-column>
       <el-table-column
         prop="singer"
         label="歌手"
-        width="280"
+        min-width="29%"
         show-overflow-tooltip
       >
+      <!-- 280 -->
       </el-table-column>
       <el-table-column
         prop="zhuanji"
         label="专辑"
-        width="300"
+        min-width="31%"
         show-overflow-tooltip
       >
+      <!-- 300 -->
       </el-table-column>
-      <el-table-column prop="time" label="时长" width="70"> </el-table-column>
+      <el-table-column prop="time" label="时长" min-width="9%"> </el-table-column>
+      <!-- 70 -->
     </el-table>
   </div>
 </template> 
